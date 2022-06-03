@@ -1,0 +1,74 @@
+#container{
+    display: flex;
+    background-color: blue;
+}
+
+.sidebar nav{
+    height: 100vh;
+    background-color: aquamarine;
+    border-right: 2px solid black;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.sidebar nav li{
+    padding: 40px;
+    padding-top: 60px;
+    list-style: none;
+    font-size: larger;
+}
+
+.sidebar nav a {
+
+    text-decoration: none;
+}
+
+.main{
+    margin: 4%;
+    padding: 10px 20px;
+    height: 80vh;
+    display: flex;
+}
+
+.devinfo{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.devimg{
+    background-color: chartreuse;
+    padding: 5px 6px;
+}
+
+.devimg img{
+    height: 100%;
+}
+
+.n1{
+    font-size: 2.5em;
+    
+}
+.name{
+    
+    font-size: 2em;
+}
+
+.about{
+    
+font-size: 1.5em;
+}
+
+.buttons button
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    size: 20px;
+    text-shadow: 2px;
+}
